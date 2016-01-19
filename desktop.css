@@ -3,6 +3,7 @@
 @import url("dist/css/bottom.css");
 
 body{ 
+	background: #cfdfee url(img/HouseBackground.png) no-repeat center center fixed; 
 	background-size: cover;
 	background-position: top right, 0 0;
 	font-family: "Verdana", "Times New Roman", serif; 
@@ -10,17 +11,40 @@ body{
 	text-shadow: 1px 1px 1px #40454a;
 } 
 #logo{
+	width: 80%;
+	position: relative;
+	margin-top: 5%;
+	margin-bottom: 5%; 
+	float: right; 
 
 }
 #subtitle{
-	color: #5c3d66;
+	position: relative;
+	float: right;
+	margin-top: -5%;
+	margin-bottom: 5%;
+	width: 100%;
+
 }
 nav{
-	
+	display: inline-block;
+	margin: 0;
+	margin-top: 2%;
+	margin-left: 5%;
+	padding: 0;
+	width: 20%/*270px*/;
+	height: 100%;
+	position: fixed;
+	text-align: right; 
+	font-size: 1.5vw;
+	/*background-color: #000001; --for testing purposes-- */
 	
 }
 ul li{
-	
+	font-size: 150%;
+	list-style: none;
+	margin-bottom: 4%;
+	margin-right: 2%;	
 }
 ul li a{
 	color: #312e4d;
@@ -44,22 +68,55 @@ ul li p{
 	padding: 0;
 }
 section{
-
+	width: 73% /*917px*/;
+	display: inline-block; 
+	float: right;
+	height: 100%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	/*background-color: red; /*--for testing purposes-- */
 }
 section  p.title{
+	margin-top: -4%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	font-size: 150%;
+	font-size: 2.25vw;
 	color: #ebe1db;
 }
 section p.subtitle{
+	margin-top: -2%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	font-size: 100%;
+	font-size: 1.5vw;
 	color: #b5b6b7;
 }
 section  p.bodytitle{
+	margin-top: -4%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	font-size: 125%;
 	color: #ebe1db;
 }
 section p.bodytext{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	font-size: 75%;
+	font-size: 1vw;
 	color: #ebe1db;
+	text-indent: 20px;
+	line-height: 150%;
 }
 section  p.formtitle{
-	color: #ebe1db;
+	font-size: 125%;
+}
+input[type=text] {
+  opacity: .75;
+}
+textarea{
+	opacity: .75;
 }
 #end{
 	float: left;
@@ -79,11 +136,18 @@ section  p.formtitle{
 	height: 100%;
 	/*background-color: red; /*--for testing purposes-- */
 }
+
 img.artarea{
 	margin-bottom:2%;
 	margin-right: 2%;
 }
-#apparea{
+/*#apparea{
+	margin-top:2%;
+	margin-bottom: 1%;
+	margin-left: 3%;
+	height: 100%;
+}*/
+#apparea/*2*/{
 	margin-bottom: 2%;
 	margin-left: 2.5%;
 	height: 100%;
@@ -94,23 +158,33 @@ img.apparea{
 	margin-left: 2%;
 	max-width: 95%;
 }
-#formarea{
+/*img.apparea2{
 	margin-bottom: 2%;
-	margin-left: 2.5%;
-	height: 100%;
-}
+	margin-right: 5%;
+	margin-left: 2%;
+	max-width: 95%;
+}*/
 #thumbnail{
 	border: 10px solid transparent;
     width: 8%;
 	height: 8%;
-	min-height: 50px;
-	min-width: 50px;
 	-webkit-border-image:url(img/ui/ThumbnailBorder.png) 10 10 round;
 	-o-border-image: url(img/ui/ThumbnailBorder.png) 10 10 round; 
     border-image: url(img/ui/ThumbnailBorder.png) 10 10 round;
 }
 footer { 
+	text-align: center;
+	clear: both;
+	font-size: 70%; 
+	font-size: 1vw;
+	font-style: italic; 
+	font-variant: small-caps; 
 	color: #ffffff;
+	opacity: 0.5;
+	margin: 0px;
+	position: relative;
+	bottom: 0px;
+	width: 95%;
 } 
 footer a { 
 	color: #111111; 

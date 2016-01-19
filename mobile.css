@@ -2,72 +2,125 @@
 @import url("dist/css/base.css");
 @import url("dist/css/bottom.css");
 
+
+
 body{ 
+	background: #cfdfee; 
 	background-size: cover;
 	background-position: top right, 0 0;
 	font-family: "Verdana", "Times New Roman", serif; 
 	font-size: 120%; 
 	text-shadow: 1px 1px 1px #40454a;
-} 
+}
+header img{
+	margin-left: auto; 
+	margin-right: auto;
+}
 #logo{
+	max-width: 190px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 3%;
+	margin-bottom: 2%; 
 
 }
 #subtitle{
-	color: #5c3d66;
+	position: relative;
+	margin-top: -2%;
+	margin-bottom: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 nav{
-	
-	
+	position: relative; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 80%;
+	height: 25%;
+	font-size: 3vw;
+	text-align: center;
 }
+
 ul li{
-	
+	position: relative;
+	font-size: 125%;
+	list-style: none;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right: 15px;
+	display: inline-block; 
 }
 ul li a{
-	color: #312e4d;
-	text-decoration: none;
+
 }
 ul li a:hover{
-	color: #ffffff;
+
 }
 
 ul li a:active{
-	color: #1a152e;
+
 }
 
 ul li p{
-	color: #312e4d;
-	opacity: 0.3;
-	cursor: default;
+	display: inline; 
 }
 *{
 	margin: 0;
 	padding: 0;
 }
 section{
-
+	width: 85%;
+	height: 100%;
+	margin-bottom: 3%;
+	margin-top: 0;
+	margin-left: auto; 
+	margin-right: auto;
+	display: block;
 }
 section  p.title{
+	margin-top: -4%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	font-size: 150%;
+	font-size: 4vw;
 	color: #ebe1db;
 }
 section p.subtitle{
+	margin-top: -2%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	font-size: 100%;
+	font-size: 2.5vw;
 	color: #b5b6b7;
 }
 section  p.bodytitle{
+	margin-top: -4%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	font-size: 125%;
 	color: #ebe1db;
 }
 section p.bodytext{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	font-size: 75%;
+	font-size: 2vw;
 	color: #ebe1db;
+	text-indent: 20px;
+	line-height: 150%;
 }
 section  p.formtitle{
-	color: #ebe1db;
+	font-size: 100%;
 }
 #end{
-	float: left;
-	width: 95%;
+	width: 100%;
 }
 #center{
-	float: left;
-	width: 95%;
+	width: 100%;
 	background: url(img/ui/ArtMenuCenter.png);
 	background-repeat: repeat-y;
 	background-size: 100%;
@@ -77,12 +130,13 @@ section  p.formtitle{
 	margin-bottom: 2%;
 	margin-left: 8.5%;
 	height: 100%;
-	/*background-color: red; /*--for testing purposes-- */
 }
+
 img.artarea{
 	margin-bottom:2%;
 	margin-right: 2%;
 }
+
 #apparea{
 	margin-bottom: 2%;
 	margin-left: 2.5%;
@@ -99,18 +153,34 @@ img.apparea{
 	margin-left: 2.5%;
 	height: 100%;
 }
+input[type=text] {
+  opacity: .75;
+}
+textarea{
+	opacity: .75;
+}
 #thumbnail{
 	border: 10px solid transparent;
-    width: 8%;
-	height: 8%;
-	min-height: 50px;
-	min-width: 50px;
+    max-width: 60px;
+	max-height: 60px;
+	min-height: 40px;
+	min-width: 40px;
 	-webkit-border-image:url(img/ui/ThumbnailBorder.png) 10 10 round;
 	-o-border-image: url(img/ui/ThumbnailBorder.png) 10 10 round; 
     border-image: url(img/ui/ThumbnailBorder.png) 10 10 round;
 }
 footer { 
+	text-align: center;
+	clear: both;
+	font-size: 70%; 
+	font-size: 2vw;
+	font-style: italic; 
+	font-variant: small-caps; 
 	color: #ffffff;
+	margin: 0px;
+	position: relative;
+	bottom: 0px;
+	width: 95%;
 } 
 footer a { 
 	color: #111111; 

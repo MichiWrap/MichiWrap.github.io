@@ -2,8 +2,12 @@
 <!-- HTML & CSS written by David Sobiepan and Anita Knezevic -->
 <html>
 <head>
+	<meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
 	<title>MichiWrap</title>
-	<link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet"  type="text/css" href="mobile.css" media="screen and (max-width:750px)" charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="desktop.css"  media="screen and (min-width:751px)" charset="utf-8" />
 </head>
 <body>
 	<nav>
@@ -37,24 +41,23 @@
 		<div id="center">
 			<p class="title">Contact Anita Knezevic</p>
 			<br>
-			<p class="bodytext">Please excuse us while this page is being constructed.</p>
-			<?php include 'contact/contactfrom.php';?>
-			<!-- V Contact form stuff i need to look at 
-			<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-				<div class="row">
-					<label for="name">Your name:</label><br />
-					<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-				</div>
-				<div class="row">
-					<label for="email">Your email:</label><br />
-					<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-				</div>
-				<div class="row">
-					<label for="message">Your message:</label><br />
-					<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-				</div>
-				<input id="submit_button" type="submit" value="Send email" />
-			</form>				-->
+			<div id="formarea">
+				<form id="contact_form" action="//formspree.io/anita@michiwrap.com" method="POST" enctype="multipart/form-data">
+					<div class="row">
+						<label for="name"><p  class="formtitle">Your name:</p></label>
+						<input id="name" class="input" name="name" type="text" value="" size="30" /><br /><br />
+					</div>
+					<div class="row">
+						<label for="email"><p  class="formtitle">Your email:</p></label>
+						<input id="email" class="input" name="email" type="text" value="" size="30" /><br /><br />
+					</div>
+					<div class="row">
+						<label for="message"><p  class="formtitle">Your message:</p></label>
+						<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br /><br />
+					</div>
+					<input id="submit_button" type="submit" value="  Send  " />
+				</form>
+			</div>
 			
 
 		</div>
