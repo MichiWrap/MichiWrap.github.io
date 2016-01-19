@@ -218,16 +218,16 @@
 				this.list.jcarousel(carouselOptions);
 			}
 
-			if(this.options.swipe && $.fn.touchwipe){
-				this.wrap.touchwipe({
-							wipeLeft: function() {
-								self.Next();
-							},
-							wipeRight: function() {
-								self.Prev();
-							}
-						});
-			}
+	//		if(this.options.swipe && $.fn.touchwipe){
+	//			this.wrap.touchwipe({
+	//						wipeLeft: function() {
+	//							self.Next();
+	//						},
+	//						wipeRight: function() {
+	//							self.Prev();
+	//						}
+	//					});
+	//		}
 			if(typeof(this.options.buildFinished) == 'function'){
 				this.options.buildFinished(this);
 			}
