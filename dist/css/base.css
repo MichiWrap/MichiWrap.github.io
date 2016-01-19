@@ -68,6 +68,7 @@ a{color:white;}
 	max-width: 42%;
 	max-height: 100%;
 	overflow: auto;
+	-webkit-overflow-scrolling: touch;
 	height: 300px;
 	float: right;
 	margin-right: 4%;
