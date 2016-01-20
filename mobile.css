@@ -1,5 +1,5 @@
 @import url("dist/css/lightbox.css");
-@import url("dist/css/base.css");
+@import url("dist/css/basemobile.css");
 @import url("dist/css/bottom.css");
 
 
@@ -33,6 +33,7 @@ header img{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	font-size: 130%;
 }
 nav{
 	position: relative; 
@@ -84,23 +85,23 @@ section  p.title{
 	margin-top: -4%;
 	margin-bottom: 2%;
 	margin-left: 2%;
-	font-size: 150%;
-	font-size: 4vw;
+	font-size: 130%;
+	/*font-size: 4vw;*/
 	color: #ebe1db;
 }
 section p.subtitle{
 	margin-top: -2%;
 	margin-bottom: 2%;
 	margin-left: 2%;
-	font-size: 100%;
-	font-size: 2.5vw;
+	font-size: 90%;
+	/*font-size: 2.5vw;*/
 	color: #b5b6b7;
 }
 section  p.bodytitle{
 	margin-top: -4%;
 	margin-bottom: 2%;
 	margin-left: 2%;
-	font-size: 125%;
+	font-size: 110%;
 	color: #ebe1db;
 }
 section p.bodytext{
@@ -108,13 +109,18 @@ section p.bodytext{
 	margin-right: 5%;
 	margin-bottom: 2%;
 	font-size: 75%;
-	font-size: 2vw;
+	/*font-size: 2vw;*/
 	color: #ebe1db;
 	text-indent: 20px;
 	line-height: 150%;
 }
-section  p.formtitle{
-	font-size: 100%;
+.input{
+	opacity: .75;
+}
+#formarea{
+	margin-bottom: 2%;
+	margin-left: 2.5%;
+	height: 100%;
 }
 #end{
 	width: 100%;
@@ -148,17 +154,7 @@ img.apparea{
 	margin-left: 2%;
 	max-width: 95%;
 }
-#formarea{
-	margin-bottom: 2%;
-	margin-left: 2.5%;
-	height: 100%;
-}
-input[type=text] {
-  opacity: .75;
-}
-textarea{
-	opacity: .75;
-}
+
 #thumbnail{
 	border: 10px solid transparent;
     max-width: 60px;
@@ -173,7 +169,7 @@ footer {
 	text-align: center;
 	clear: both;
 	font-size: 70%; 
-	font-size: 2vw;
+	/*font-size: 2vw;*/
 	font-style: italic; 
 	font-variant: small-caps; 
 	color: #ffffff;

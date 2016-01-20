@@ -1,0 +1,110 @@
+@import url("bottom.css");
+
+/* Style the thumbnails */
+.pika-thumbs{ 
+	position: relative;
+	padding: 1%;
+	width: 912px;
+	max-width: 70%;
+	height: 4vw;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	.pika-thumbs li{ 
+		height: 7vw;
+		width: 7vw;
+		min-height: 40px;
+		min-width: 40px;
+		overflow: hidden;
+		float: left;
+		list-style-type: none; 
+		cursor: pointer;
+}
+	.pika-thumbs li .clip{
+		height:100%;
+		text-align: center;
+	}
+	.pika-thumbs li img{
+		display: list-item;
+	}
+		
+/* The stage is the wrapper. The image fills 100% the height of the stage */
+.pika-stage{
+	width: 912px;
+	max-width:95%;
+	height: 100%;
+}
+.pika-stage {
+	position: relative; 
+}
+.pika-stage img{
+	/*height:300px; 
+	width:450px;*/
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: relative;
+	padding: 1px 10px 1px 10px;
+}
+.pika-stage .caption {
+	width: 90%;
+	/*float: right;*/
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;   
+	text-align: left; 
+	top: 1px;
+}
+	.pika-stage .caption p {padding: 0; margin: 0;}
+
+/* Ths play, pause, prev and next buttons */
+.pika-imgnav a {
+	position: absolute; 
+	/*text-indent: -5000px; */
+	display: block;
+	z-index:3;
+}
+	.pika-imgnav a.previous {
+		background: url(../../dist/images/prev.png);
+		background-repeat: no-repeat;
+		background-position: 100%;
+		background-size: 110%;
+		height: 40vw;
+		width: 5%; 
+		top: 2%;
+		float: left;
+		left: -2%;
+		cursor: pointer;
+		
+		
+	}
+	.pika-imgnav a.next {
+		background: url(../../dist/images/next.png);
+		background-repeat: no-repeat;
+		background-position: 100%; 
+		background-size: 110%;
+		height: 40vw;
+		width: 5%; 
+		top: 2%;
+		float: right;
+		right: -5%;
+		cursor: pointer;		
+	}
+	/*.pika-imgnav a.play {background: url(play.png) no-repeat 0% 50%; height: 100px; width: 44px;top:0;left:50%;display: none;cursor:pointer;}
+	.pika-imgnav a.pause {background: url(pause.png) no-repeat 0% 50%; height: 100px; width: 44px;top:0;left:50%;display:none;cursor:pointer;}
+	*/
+/* The previous and next textual buttons */
+/*.pika-textnav {overflow: hidden; margin: 10px 0 0 0;bottom:10px; position:absolute;}
+.pika-textnav a {font-size: 12px; text-decoration: none; color: #333; padding: 4px;}
+	.pika-textnav a.previous {float: left; width: auto; display: block;}
+	.pika-textnav a.next {float: right; width: auto; display: block;}*/
+
+/*for the tool tips*/
+.pika-tooltip{font-size:12px;position:absolute;color:white;padding:3px; background-color: rgba(0,0,0,0.7);border:3px solid black;}
+.pika-counter{position: absolute; top: 5px;left:15px;color:white;background:rgba(0,0,0,0.7);font-size:11px;padding:3px;-moz-border-radius: 5px;border-radius:5px;}
+
+/* If using user thumbnails there's a pause well the new large image loads. This is the loader for that */		
+.pika-loader{ /*background:url(../../dist/images/loading.gif) 3px 3px no-repeat /*#000*/; /*background-color:rgba(0,0,0,0.9);*/ color:white; width:60px; font-size:11px; padding:5px 3px; 
+	text-align:right; position:absolute; top:15px; right:50px; }
