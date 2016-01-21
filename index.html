@@ -2,6 +2,10 @@
 <!-- HTML & CSS written by David Sobiepan and Anita Knezevic -->
 <html>
 <head>
+	<script>
+		var stateObj = { index: " " };
+		history.pushState(stateObj, "page 2", " ");
+	</script>
 	<meta name="viewport" content="width=device-width">
 	<meta name="description" content="Portfolio of artist Anita Knezevic"/>
 	<meta name="keywords" content="portfolio, art, artist, michiwrap, michi wrap, anita, knezevic, dreamkind" />
@@ -11,10 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<link rel="stylesheet"  type="text/css" href="mobile.css" media="screen and (max-width:750px)" charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="desktop.css"  media="screen and (min-width:751px)" charset="utf-8" />
-	<script>
-		var stateObj = { index: "" };
-		history.pushState(stateObj, "page 2", "");
-	</script>
+
 </head>
 <body>
 	<nav>
