@@ -1,180 +1,99 @@
-<!doctype html>
-<!-- HTML & CSS written by David Sobiepan and Anita Knezevic -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>MichiWrap - Portfolio of artist Anita Knezevic</title>
-	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="Michiwrap - Portfolio of artist Anita Knezevic. View her illustrations, narratives, concept art, and apps"/>
-	<meta name="keywords" content="portfolio, art, artist, michiwrap, michi wrap, anita, knezevic, dreamkind" />
-	<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" />
-	<meta name="google-site-verification" content="yYuT4OfxGeNzfnWQ904ydQzUcyebn1DwotLecFoSNVE" />
-	<link rel="stylesheet" type="text/css" href="style.css"/>
-	<link rel="stylesheet"  type="text/css" href="mobile.css" media="screen and (max-width:750px)" charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="desktop.css"  media="screen and (min-width:751px)" charset="utf-8" />
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>MichiWrap - Portfolio of Artist Anita Knezevic</title>
+    <!-- Bootstrap -->
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
-<body>
-	<nav>
-		<!--MICHIWRAP-->
-		<div id="header">
-			<a href="http://www.michiwrap.com" title="Michiwrap - Portfolio of artist Anita Knezevic">
-				<img src="img/MichiWrapLogo.png" alt="MichiWrap" id= "logo"/>
+<body ontouchstart="">
+  <div class="container">
+	<nav class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+              <li class="hdr-nav"><a href="index.html">Portfolio </a></li>
+              <li class="hdr-nav"><a href="games.html">Games </a></li>
+              <li class="hdr-logo"><a href="index.html"><img src="img/MichiWrapLogo.svg" alt="MichiWrap Logo"></a></li>
+              <li class="hdr-nav"><a href="about.html">About</a></li>
+              <li class="hdr-nav"><a href="contact.html">Contact</a></li>
+          </ul>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="defaultNavbar1">
+              <ul class="nav navbar-dropdown">
+                  <li><a href="index.html">Portfolio</a></li>
+                  <li><a href="games.html">Games</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+    </nav>
+    <div class="centeredcontainer">
+    	<div class="artcontainer">
+            <div class="artbutton">   
+                <a class="illustrations artlink" href="illustrations.html">
+                    <div class="caption">
+                        <h2>Illustrations</h2>
+                    </div>
+                    <div class="chromecaption">
+                        <h2>Illustrations</h2>
+                    </div>
+                    <img src="img/IllustrationsButton.png" alt="Illustrative Art" class="artcategory">
+                 </a>
+            </div>
+            <div class="artbutton">
+            	<a class="concepts artlink" href="concepts.html">
+                    <div class="caption" style="animation-delay:4s">
+                            <h2>Concept Art</h2>
+                    </div>
+                    <div class="chromecaption">
+                        <h2>Concept Art</h2>
+                    </div>
+                    <img src="img/ConceptsButton.png" alt="Concept Art" class="artcategory" >
+                </a>
+            </div>
+            <div class="artbutton">
+                <a class="narratives artlink" href="narratives.html">
+                    <div class="caption" style="animation-delay:8.5s">
+                            <h2>Narratives</h2>
+                    </div>
+                    <div class="chromecaption">
+                        <h2>Narratives</h2>
+                    </div>
+                	<img src="img/NarrativesButton.png" alt="Narrative Art" class="artcategory" >
+                </a>
+            </div>
+        </div>
+        <div class="socialmediacontainer">
+        	<a href="https://twitter.com/MichiWrap" target="_blank">
+        		<img src="img/TwitterButton.png" class="img-responsive socialmediaicon" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com/in/anita-knezevic-michiwrap" target="_blank">
+            	<img src="img/LinkedInButton.png" class="img-responsive socialmediaicon" alt="Linkedin">
 			</a>
-			<div id="subtitle">Art of Anita Knezevic</div>
-			<!--NAVIGATION-->
-			<ul>
-				<li><p>
-					Portfolio
-				</p></li>
-				<li><a href="http://www.michiwrap.com/apps">
-					Apps
-				</a></li>
-				<li><a href="http://www.michiwrap.com/about">
-					About
-				</a></li>
-				<li><a href="http://www.michiwrap.com/contact">
-					Contact
-				</a></li>
-			</ul>
-		</div>
-	</nav>
-	<!--ART-->
-	<section> 
-		<img src="img/ui/ArtMenuTop.png" id="end"/>
-		<div id="center">
-			<p class="title">Illustration</p>
-			<p class="subtitle">Digitally illustrated projects</p>
-			<div id="artarea">
-				<a style="text-decoration:none;" href="img/art/drawing/Puppeteer.png" data-lightbox="Illustration" data-title="Puppeteer">
-					<img class="artarea" src="img/art/drawing/thumbnails/PuppeteerThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/drawing/MorningRoutine.png" data-lightbox="Illustration" data-title="Morning Routine">
-					<img class="artarea" src="img/art/drawing/thumbnails/MorningRoutineThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/drawing/StoryOfMyLife.gif" data-lightbox="Illustration" data-title="Story of my Life">
-					<img class="artarea" src="img/art/drawing/thumbnails/StoryOfMyLifeThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/drawing/Vanguard.gif" data-lightbox="Illustration" data-title="Vanguard">
-					<img class="artarea" src="img/art/drawing/thumbnails/VanguardThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/drawing/TheAmazings.png" data-lightbox="Illustration" data-title="The Amazings">
-					<img class="artarea" src="img/art/drawing/thumbnails/TheAmazingsThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/drawing/Metamorphosis.png" data-lightbox="Illustration" data-title="Metamorphosis">
-					<img class="artarea" src="img/art/drawing/thumbnails/MetamorphosisThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/drawing/HeroOfWinds.png" data-lightbox="Illustration" data-title="Hero Of Winds">
-					<img class="artarea" src="img/art/drawing/thumbnails/HeroOfWindsThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/drawing/TwilightBackground.png" data-lightbox="Illustration" data-title="Twilight">
-					<img class="artarea" src="img/art/drawing/thumbnails/TwilightBackgroundThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/drawing/Hidden.png" data-lightbox="Illustration" data-title="Hidden">
-					<img class="artarea" src="img/art/drawing/thumbnails/HiddenThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/drawing/Mansion.png" data-lightbox="Illustration" data-title="Mansion">
-					<img class="artarea" src="img/art/drawing/thumbnails/MansionThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/drawing/AlexCover.png" data-lightbox="Illustration" data-title="Alex Cover">
-					<img class="artarea" src="img/art/drawing/thumbnails/AlexCoverThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/drawing/Headache.png" data-lightbox="Illustration" data-title="Headache">
-					<img class="artarea" src="img/art/drawing/thumbnails/HeadacheThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/drawing/Unbound.png" data-lightbox="Illustration" data-title="Unbound">
-					<img class="artarea" src="img/art/drawing/thumbnails/UnboundThumbnail.png" id="thumbnail">
-				</a>
-			</div>
-			<br>
-			<p class="title">Narrative</p>
-			<p class="subtitle">Visual sequences and comic excerpts</p>
-			<div id="artarea">
-				<a style="text-decoration:none;" href="img/art/narrative/NoHeartToGive.png" data-lightbox="Narrative" data-title="No Heart to Give">
-					<img class="artarea" src="img/art/narrative/thumbnails/NoHeartToGiveThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/narrative/NoShave.png" data-lightbox="Narrative" data-title="No Shave Neverber">
-					<img class="artarea" src="img/art/narrative/thumbnails/NoShaveThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/narrative/Amazings1-1.png" data-lightbox="Narrative" data-title="The Amazings: Chapter 1, Page 1">
-					<img class="artarea" src="img/art/narrative/thumbnails/Amazings1-1Thumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/narrative/Amazings4-6.png" data-lightbox="Narrative" data-title="The Amazings: Chapter 4, Page 6">
-					<img class="artarea" src="img/art/narrative/thumbnails/Amazings4-6Thumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/narrative/AmazingsPilotPage.png" data-lightbox="Narrative" data-title="The Amazings: Pilot Page">
-					<img class="artarea" src="img/art/narrative/thumbnails/AmazingsPilotPageThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/narrative/AlexPage0001.png" data-lightbox="Narrative" data-title="Alex: Pages 1 & 2">
-					<img class="artarea" src="img/art/narrative/thumbnails/AlexPage0001Thumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/narrative/AlexPage1011.png" data-lightbox="Narrative" data-title="Alex: Pages 10 & 11">
-					<img class="artarea" src="img/art/narrative/thumbnails/AlexPage1011Thumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/narrative/AlexPage2021.png" data-lightbox="Narrative" data-title="Alex: Pages 20 & 21">
-					<img class="artarea" src="img/art/narrative/thumbnails/AlexPage2021Thumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/narrative/PopCompilation.png" data-lightbox="Narrative" data-title="Pop">
-					<img class="artarea" src="img/art/narrative/thumbnails/PopCompilationThumbnail.png" id="thumbnail">
-				</a>
-			</div>
-			<br>
-			<p class="title">Concept Art</p>
-			<p class="subtitle">Conceptual design for various projects</p>
-			<div id="artarea">
-				<a style="text-decoration:none;" href="img/art/concept/AlphabetStoriesAssets.png" data-lightbox="Concepts" data-title="Alphabet Stories: Background Assets">  
-					<img class="artarea" src="img/art/concept/thumbnails/AlphabetStoriesAssetsThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/concept/HeroConcepts.png" data-lightbox="Concepts" data-title="The Amazings: Early Hero Concepts">  
-					<img class="artarea" src="img/art/concept/thumbnails/HeroConceptsThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/concept/AmazingsCharacterLineUp.png" data-lightbox="Concepts" data-title="The Amazings: Playable Characters">  
-					<img class="artarea" src="img/art/concept/thumbnails/AmazingsCharacterLineUpThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/concept/AmazingsEnvironmentConcept.png" data-lightbox="Concepts" data-title="The Amazings: First Environment Concept">  
-					<img class="artarea" src="img/art/concept/thumbnails/AmazingsEnvironmentConceptThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/concept/AmazingsTriggerConcepts.png" data-lightbox="Concepts" data-title="The Amazings: Triggers">  
-					<img class="artarea" src="img/art/concept/thumbnails/AmazingsTriggerConceptsThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/concept/ItemsForStacks.png" data-lightbox="Concepts" data-title="Rewind: Background Asset Concepts">  
-					<img class="artarea" src="img/art/concept/thumbnails/ItemsForStacksThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/concept/ArcStoryboardSegment.png" data-lightbox="Concepts" data-title="Monster Guard: Storyboard Segment">  
-					<img class="artarea" src="img/art/concept/thumbnails/ArcStoryboardSegmentThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/concept/LivingroomAssetsConcept.png" data-lightbox="Concepts" data-title="Monster Guard: Livingroom Assets">  
-					<img class="artarea" src="img/art/concept/thumbnails/LivingroomAssetsConceptThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/concept/OliviaCharacterConcept.png" data-lightbox="Concepts" data-title="Monster Guard: Olivia Concept Card">  
-					<img class="artarea" src="img/art/concept/thumbnails/OliviaCharacterConceptThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/concept/TollyCharacterConcept.png" data-lightbox="Concepts" data-title="Monster Guard: Tolly Concept Card">  
-					<img class="artarea" src="img/art/concept/thumbnails/TollyCharacterConceptThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/concept/MarthaCharacterConcept.png" data-lightbox="Concepts" data-title="Alex: Martha Character Concepts">  
-					<img class="artarea" src="img/art/concept/thumbnails/MarthaCharacterConceptThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/concept/MindyCharacterConcept.png" data-lightbox="Concepts" data-title="Alex: Mindy Character Concepts">  
-					<img class="artarea" src="img/art/concept/thumbnails/MindyCharacterConceptThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/concept/BackgroundPrototype.png" data-lightbox="Concepts" data-title="Prototype: Early Background Concept">  
-					<img class="artarea" src="img/art/concept/thumbnails/BackgroundPrototypeThumbnail.png" id="thumbnail">
-				</a>
-				<a style="text-decoration:none;" href="img/art/concept/PrototypeStyleConcept.png" data-lightbox="Concepts" data-title="Prototype: Early Style Concepts">  
-					<img class="artarea" src="img/art/concept/thumbnails/PrototypeStyleConceptThumbnail.png" id="thumbnail">
-				</a>
-			</div>
-</div>
-		<img src="img/ui/ArtMenuBottom.png" id="end"/>
-		<footer> 
-		<p> 
-			Copyright &copy; Anita Knezevic - MichiWrap - 2015.
-		</p> 
-		<text>
-			All Rights Reserved
-		</text>
-	</footer>
-	</section> 
-	<script src="dist/js/lightbox-plus-jquery.js"></script>
+            <a href="http://michiwrap.tumblr.com/" target="_blank">
+            	<img src="img/TumblrButton.png" class="img-responsive socialmediaicon" alt="Tumblr">
+			</a>
+       	</div>
+    </div>
+  </div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.2.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>
