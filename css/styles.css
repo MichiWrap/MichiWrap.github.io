@@ -105,7 +105,7 @@
 		width: 100%;
 	}
 	.nav.navbar-nav{
-		margin:0;
+		margin:0 0 25px 0;
 	}
 	.navbar-toggle{
 		float: none;
@@ -140,7 +140,7 @@
 		min-height: 311px;
 		width: 100%;
 		position: absolute;
-		top: 142px;
+		top: 160px;
 		bottom: 0;
 		padding: 0;
 	}
@@ -162,7 +162,7 @@
 		margin-top: 5%;
 	}
 	.centeredcontainer, .portfoliocontainer, .contentcontainer{
-		top: 142px !important;
+		top: 160px !important;
 		z-index: auto;
 	}
 	.portfoliocontainer{
@@ -306,7 +306,7 @@ body.alternate{
 }
 .centeredcontainer {
 	width: 100%;
-	top: 110px;
+	top: 140px;
 	bottom: 50%;
 	transform: translateY(50%);
 	position: absolute;
