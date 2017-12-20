@@ -1,57 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
- 
-<url>
-<loc>http://www.michiwrap.com/</loc>
-<priority>1.0</priority>
-<changefreq>daily</changefreq>
-</url>
-<url>
-<loc>http://www.michiwrap.com/index</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/about</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/apps</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/contact</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/illustrations</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/concepts</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/narratives</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/abcstories</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/amazings</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/maryellen</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/monsterguard</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/nfl</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/puzzlepacks</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/rewind</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/toyescape</loc>
-</url>
-<url>
-<loc>http://www.michiwrap.com/animations</loc>
-</url>
-</urlset>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:urlset xmlns:ns1="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ns1:url>
+		<ns1:loc>http://www.michiwrap.com/</ns1:loc>
+		<ns1:priority>1</ns1:priority>
+		<ns1:changefreq>daily</ns1:changefreq>
+	</ns1:url>
+	<ns1:url>
+		<ns1:loc>http://www.michiwrap.com/index</ns1:loc>
+	</ns1:url>
+	<ns1:url/>
+	<ns1:url/>
+	<ns1:url/>
+	<ns1:url/>
+	<ns1:url/>
+	<ns1:url/>
+	<ns1:url/>
+	<ns1:url/>
+	<ns1:url/>
+	<ns1:url/>
+	<ns1:url/>
+	<ns1:url/>
+	<ns1:url/>
+	<ns1:url/>
+	<ns1:url/>
+</ns1:urlset>
