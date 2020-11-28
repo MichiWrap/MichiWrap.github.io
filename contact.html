@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>MichiWrap - Portfolio of Artist Anita Paredes</title>
+	<meta name="Anita Paredes" content="Art and Design Portfolio">
+  
+	  <link rel="stylesheet" href="css/styles.css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--[if lt IE 9]>
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<header class="cf">
+		<img src="img/MichiWrapLogo.svg" alt="logo" style="height: 100px; float: left; margin-left: 25px; margin-top: 15px;">
+		<titlegroup>
+			<h1>Anita Paredes</h1>
+			<p style="font-family: 'Fira Sans Light'">Graphic Artist</p>
+		</titlegroup>	
+		<!--NAVIGATION-->
+			<nav>
+				<ul>
+					<li><a href="index.html">Work</a></li>
+					<li><a href="about.html">About</a></li>
+					<li style="opacity: 0.5;">Contact</li>
+				</ul>
+			</nav>			
+	</header>
+<!--MAIN BODY-->
+			
+			<div id="formarea">
+				<p style="text-align: center; margin-top:75px;line-height: 40px; font-size: 2em;">Want to connect? Interested in working together or getting a private commission done? Feel free to send me an email!</p><br><br>
+				<form id="contact_form" action="https://formspree.io/f/anita@michiwrap.com" method="POST" enctype="multipart/form-data" style="text-align: center">
+					<div class="row">
+						<label for="name"><p  class="formtitle">Your name:</p></label>
+						<input id="name" class="input" name="name" type="text" value="" size="30"/><br /><br />
+					</div>
+					<div class="row">
+						<label for="email"><p  class="formtitle">Your email:</p></label>
+						<input id="email" class="input" name="email" type="text" value="" size="30" /><br /><br />
+					</div>
+					<div class="row">
+						<label for="message"><p  class="formtitle">Your message:</p></label>
+						<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br /><br />
+					</div>
+					<input id="submit_button" type="submit" value="  Send  " />
+				</form>
+			</div>
+
+
+</body>
+</html>
+

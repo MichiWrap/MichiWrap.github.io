@@ -1,72 +1,523 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+
 <head>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>MichiWrap - Portfolio of Artist Anita Paredes</title>
-   <link href="css/styles.css" rel="stylesheet" type="text/css">
-   <link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans" rel="stylesheet">
-   <meta name="google-site-verification" content="yYuT4OfxGeNzfnWQ904ydQzUcyebn1DwotLecFoSNVE" />
+	<meta charset="utf-8">
+	<title>MichiWrap - Portfolio of Artist Anita Paredes</title>
+	<meta name="Anita Paredes" content="Art and Design Portfolio">
+  
+	  <link rel="stylesheet" href="css/styles.css">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
+<script src="js/script.js"></script>
+	<script src="js/uiDesign.js"></script><script src="js/conceptArt.js"></script><script src="js/graphicDesign.js"></script>
+  
+  <!--[if lt IE 9]>
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
-<body ontouchstart="">
-  <div class="header">
-  	<div class="title">
-  		<img src="img/Logo.png" alt="MichiWrap Logo" class="headerlogo">
-  		<h1 class="name"> ANITA PAREDES</h1>
-  		<p class="titletext"> Concept Artist and Illustrator</p>
-  		<p class="titletext">anita@michiwrap.com</p>
-  	</div>
-  </div>
-  <div class="container">
-  	<div class="single">
-  		<img src="img/art/RabbitInTheMoon.png" alt="Rabbit Anthro Fantasy Illustration" class="art">
-  		<picture>
-    		<source media="(max-width: 640px)" srcset="img/art/quioraMobile.jpg">
-   			<img src="img/art/quiora.jpg" alt="Quiora Character Design" class="art">
-		</picture>
-  		<!-- <img src="img/art/quiora.jpg" alt="Quiora Character Design" class="art"> -->
-  		<img src="img/art/quioraThumbnails.png" alt="Quiora Thumbnail Sketches" class="art">
-  		<img src="img/art/quioraOutfitDesign.jpg" alt="Quiora Outfit Designs" class="art">
-  		<img src="img/art/quioraTurnAround.png" alt="Quiora Turn Around" class="art">
-  		<img src="img/art/abcBackground.jpg" alt="Alphabet Stories Background" class="art">
-  	</div>
-  	<div class="triple">
-  		<img src="img/art/abcBanner.jpg" alt="Alphabet Stories Store Banner" class="art left">
-  		<img src="img/art/abcIcon.jpg" alt="Alphabet Stories App Icon" class="art right">
-  		<img src="img/art/abcCharacters.png" alt="Animal Characters" class="art left">
-  	</div>
-  	<div class="single">
-  		<img src="img/art/abcTrees.png" alt="Tree Concepts" class="art">
-  		<img src="img/art/toyEscape.jpg" alt="Toy Escape Promotional Art" class="art">
-  	</div>
-  	<div class="double">
-  		<img src="img/art/broBotV1.png" alt="Robot Concept" class="art left">
-  		<img src="img/art/broBotV2.png" alt="Robot Concept" class="art right">
-  	</div>
-  	<div class="single">
-  		<img src="img/art/broBotV3.png" alt="Robot Concept" class="art">
-  		<img src="img/art/broBotFinal.jpg" alt="Robot Concept" class="art">
-  	</div>
-  	<div class="double">
-  		<img src="img/art/toyEscapeBg1.jpg" alt="Environment Design" class="art left">
-  		<img src="img/art/toyEscapeBg2.jpg" alt="Environment Design" class="art right">
-  	</div>
-  	<div class="triple">
-  		<img src="img/art/olivia.jpg" alt="Olivia Character Design" class="art left">
-  		<img src="img/art/oliviaBody.png" alt="Olivia Body Shape Concept" class="art right">
-  		<img src="img/art/oliviaFaces.png" alt="Olivia Face Concepts" class="art right">
-  	</div>
-  	<div class="triple">
-  		<img src="img/art/tolly.jpg" alt="Tolly Character Design" class="art right">
-  		<img src="img/art/tollyBody.png" alt="Tolly Body Shape Concept" class="art left">
-  		<img src="img/art/tollyFaces.png" alt="Tolly Face Concepts" class="art left">
-  	</div>
-  	<div class="footer">
-  		<h1>Anita Paredes</h1>
-  		<p class="footertext"> Concept Artist and Illustrator</p>
-  		<p class="footertext">anita@michiwrap.com</p>
-  	</div>
-  </div>
+
+<body>
+	<header class="cf">
+		<img src="img/MichiWrapLogo.svg" alt="logo" style="height: 100px; float: left; margin-left: 25px; margin-top: 15px;">
+		<titlegroup>
+			<h1>Anita Paredes</h1>
+			<p style="font-family: 'Fira Sans Light'">Graphic Artist</p>
+		</titlegroup>	
+		<!--NAVIGATION-->
+			<nav>
+				<ul>
+					<li><a href="index.html">Work</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>			
+	</header>
+<!--MAIN BODY-->
+	<div class="wrapper">
+		<section id="main-content">
+			<!-- Catrgory Options-->
+	    	<div class="categories">
+				<div class="new_member_box"> 
+					<a href="#" class="button1"><h4>UI/UX Design</h4></a>
+				</div>
+				<!--<div class="new_member_box"> 
+					<a href="#" class="button2"><h4>Graphic Design</h4></a>
+				</div>
+				<div class="new_member_box"> 
+					<a href="#" class="button3"><h4>Illustration</h4></a>
+				</div>-->
+			</div>
+			<!--END CATEGORIES-->
+			<div class="clear button"></div>
+<!--PORTFOLIO AREA-->
+		<section class="wrapper">
+			<!--UI/UX ARTWORK-->
+			<div id="content1" class="fade-in">
+    			<p  class="category-title">UI / UX Design</p><br>
+				<!--ROW 1-->
+				<div class="row">
+					<!--Image 1-->
+		  			<div class="column fade-in">
+						<img src="img/UIDesign/NflPlay60Thumb.png" alt="NFL Play 60" onclick="openModalUI();currentSlideUI(1)" class="portfolio" style="width:100%">
+						<div class="middle">
+  							<div class="text">NFL Play 60</div>
+  						</div>
+		  			</div>
+					<!--Image 2-->
+		  			<div class="column fade-in" style="animation-delay: .2s;">
+						<img src="img/UIDesign/ToyEscapeThumb.png" alt="Toy Escape" onclick="openModalUI();currentSlideUI(2)" class="portfolio" style="width:100%;">
+						<div class="middle">
+  							<div class="text">Toy Escape</div>
+  						</div>
+		  			</div>
+					<!--Image 3-->
+		 			<div class="column fade-in" style="animation-delay: .4s;">
+						<img src="img/UIDesign/DreamkindThumb.png" alt="Mountains" onclick="openModalUI();currentSlideUI(3)" class="portfolio" style="width:100%;">
+ 		    			<div class="middle">
+  							<div class="text">Dreamkind</div>
+  						</div>
+  		  			</div>
+				</div><!--END ROW-->
+				<!--ROW 2-->
+				<div class="row">
+					<!--Image 4-->
+		  			<div class="column fade-in" style="animation-delay: .6s;">
+						<img src="img/UIDesign/AbcThumb.png" alt="Fjords" onclick="openModalUI();currentSlideUI(4)" class="portfolio" style="width:100%;">
+						<div class="middle">
+  							<div class="text">Alphabet Stories</div>
+  						</div>
+		  			</div>
+					<!--Image 5-->
+		  			<div class="column fade-in" style="animation-delay: .8s;">
+						<img src="img/UIDesign/RewindThumb.png" alt="Forest" onclick="openModalUI();currentSlideUI(5)" class="portfolio" style="width:100%;">
+						<div class="middle">
+  							<div class="text">Rewind</div>
+  						</div>
+		  			</div>
+					<!--Image 6-->
+		  			<div class="column fade-in" style=" animation-delay: 1s">
+						<img src="img/UIDesign/ClickDepotThumb.png" alt="Mountains" onclick="openModalUI();currentSlideUI(6)" class="portfolio" style="width:100%;">
+ 		    			<div class="middle">
+  							<div class="text">Click Depot</div>
+  						</div>
+  		  			</div>
+				</div><!--END ROW-->		
+			</div><!-- END UI/UX-->
+			<!-- GRAPHIC DESIGN ARTWORK-->
+			<div id="content2" class="fade-in">
+				<p class="category-title">Graphic Design</p><br>
+				<!--ROW 1-->
+				<div class="row">
+					<!--Image 1-->
+					<div class="column fade-in">
+						<img src="img/splash-bg.jpg" alt="Fjords" onclick="openModalCA();currentSlideCA(1)" class="portfolio" style="width:100%">
+						<div class="middle">
+							<div class="text">John Doe</div>
+						</div>
+					</div>
+					<!--Image 2-->
+					<div class="column fade-in" style="animation-delay: .2s;">
+						<img src="img/splash-bg.jpg" alt="Forest" onclick="openModalCA();currentSlideCA(2)" class="portfolio" style="width:100%;">
+						<div class="middle">
+							<div class="text">John Doe</div>
+						</div>
+					</div>
+					<!--Image 3-->
+					<div class="column fade-in" style="animation-delay: .4s;">
+						<img src="img/splash-bg.jpg" alt="Mountains" onclick="openModalCA();currentSlideCA(3)" class="portfolio" style="width:100%;">
+						<div class="middle">
+							<div class="text">John Doe</div>
+						</div>
+					 </div>
+				</div><!--END ROW-->
+				<!--ROW 2-->
+				<div class="row">
+					<!--Image 4-->
+					<div class="column fade-in" style="animation-delay: .6s;">
+						<img src="img/splash-bg.jpg" alt="Fjords" onclick="openModalCA();currentSlideCA(4)" class="portfolio" style="width:100%;">
+						<div class="middle">
+							<div class="text">John Doe</div>
+						</div>
+					</div>
+					<!--Image 5-->
+					<div class="column fade-in" style="animation-delay: .8s;">
+						<img src="img/splash-bg.jpg" alt="Forest" onclick="openModalCA();currentSlideCA(5)" class="portfolio" style="width:100%;">
+						<div class="middle">
+							<div class="text">John Doe</div>
+						</div>
+					</div>
+					<!--Image 6-->
+					<div class="column fade-in" style="animation-delay: 1s;">
+						<img src="img/splash-bg.jpg" alt="Mountains" onclick="openModalCA();currentSlideCA(6)" class="portfolio" style="width:100%;">
+						<div class="middle">
+							<div class="text">John Doe</div>
+						</div>
+					</div>
+				</div><!--END ROW-->	
+			</div><!--END GRAPHIC DESIGN-->
+			<!--ILLUSTRATION ARTWORK-->	
+			<div id="content3" class="fade-in">
+				<p  class="category-title">Illustration</p><br>
+				<!--ROW 1-->
+				<div class="row">
+					<!--Image 1-->
+					<div class="column fade-in">
+						<img src="img/splash-bg.jpg" alt="Fjords" onclick="openModalGA();currentSlideGA(1)" class="portfolio" style="width:100%">
+						<div class="middle">
+							<div class="text">John Doe</div>
+						</div>
+					</div>
+					<!--Image 2-->
+					<div class="column fade-in" style="animation-delay: .2s;">
+						<img src="img/splash-bg.jpg" alt="Forest" onclick="openModalGA();currentSlideGA(2)" class="portfolio" style="width:100%;">
+						<div class="middle">
+							<div class="text">John Doe</div>
+						</div>
+					</div>
+					<!--Image 3-->
+					<div class="column fade-in" style="animation-delay: .4s;">
+						<img src="img/splash-bg.jpg" alt="Mountains" onclick="openModalGA();currentSlideGA(3)" class="portfolio" style="width:100%;">
+						<div class="middle">
+							<div class="text">John Doe</div>
+						</div>
+					</div>
+				</div><!--END ROW-->
+				<!--ROW 2 -->
+				<div class="row">
+					<!--Image 4-->
+					<div class="column fade-in" style="animation-delay: .6s;">
+						<img src="img/splash-bg.jpg" alt="Fjords" onclick="openModalGA();currentSlideGA(4)" class="portfolio" style="width:100%;">
+						<div class="middle">
+							<div class="text">John Doe</div>
+						</div>
+					</div>
+					<!--Image 5-->
+					<div class="column fade-in" style="animation-delay: .8s;">
+						<img src="img/splash-bg.jpg" alt="Forest" onclick="openModalGA();currentSlideGA(5)" class="portfolio" style="width:100%;">
+						<div class="middle">
+							<div class="text">John Doe</div>
+						</div>
+					</div>
+					<!--Image 6-->
+					<div class="column fade-in" style="animation-delay: 1s;">
+						<img src="img/splash-bg.jpg" alt="Mountains" onclick="openModalGA();currentSlideGA(6)" class="portfolio" style="width:100%;">
+						<div class="middle">
+							<div class="text">John Doe</div>
+						</div>
+					</div>
+				</div><!--END ROW-->		
+			</div><!--END ILLUSTRATION-->
+<!--CATEGORY WHEN FIRST LOADING PAGE - UI / UX Design-->
+			<div class="new_member_box_display fade-in" id="content">
+					<p  class="category-title">UI / UX Design</p><br>
+					<!--ROW 1-->
+					<div class="row">
+						<!--Image 1-->
+						<div class="column fade-in" onclick="openModalUI();currentSlideUI(1)">
+							<img src="img/UIDesign/NflPlay60Thumb.png" alt="NFL Play 60"  class="portfolio" style="width:100%">
+							<div class="middle">
+								<div class="text">NFL Play 60</div>
+							</div>
+						</div>
+						<!--Image 2-->
+						<div class="column fade-in" style="animation-delay: .2s" onclick="openModalUI();currentSlideUI(2)">
+							<img src="img/UIDesign/ToyEscapeThumb.png" alt="Toy Escape" class="portfolio" style="width:100%;">
+							<div class="middle">
+								<div class="text">Toy Escape</div>
+							</div>
+						</div>
+						<!--Image 3-->
+						<div class="column fade-in" style="animation-delay: .4s" onclick="openModalUI();currentSlideUI(3)">
+							<img src="img/UIDesign/DreamkindThumb.png" alt="Mountains" class="portfolio" style="width:100%;">
+							<div class="middle">
+								<div class="text">Dreamkind</div>
+							</div>
+						</div>
+					</div><!--END ROW-->
+					<!--ROW 2-->
+					<div class="row">
+						<!--Image 4-->
+						<div class="column fade-in" style="animation-delay: .6s" onclick="openModalUI();currentSlideUI(4)">
+							<img src="img/UIDesign/AbcThumb.png" alt="Fjords" class="portfolio" style="width:100%;">
+							<div class="middle">
+								<div class="text">Alphabet Stories</div>
+							</div>
+						</div>
+						<!--Image 5-->
+						<div class="column fade-in" style="animation-delay: .8s" onclick="openModalUI();currentSlideUI(5)">
+							<img src="img/UIDesign/RewindThumb.png" alt="Forest" class="portfolio" style="width:100%;">
+							<div class="middle">
+								<div class="text">Rewind</div>
+							</div>
+						</div>
+						<!--Image 6-->
+		  				<div class="column fade-in" style="animation-delay: 1s" onclick="openModalUI();currentSlideUI(6)">
+							<img src="img/UIDesign/ClickDepotThumb.png" alt="Mountains" class="portfolio" style="width:100%;">
+ 		    				<div class="middle">
+  								<div class="text">Click Depot</div>
+  							</div>
+  		  				</div>
+					</div><!--END ROW-->	
+			</div><!--END STARTING CATEGORY-->
+		</section><!--END WRAPPER-->
+
+		<!-- The Modal/Lightbox - UI/UX Design-->
+		<div id="UIDesign" class="modal">
+			<!-- Next/previous controls -->
+			<a class="prev" onclick="plusSlidesUI(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlidesUI(1)">&#10095;</a>
+			<!--Close Button-->
+			<span class="close cursor" onclick="closeModalUI()">&times;</span>
+			<div class="modal-content" id="myDiv" onscroll="myFunction()">
+			   <!--SLIDE 1-->
+				<div class="uiSlides">
+				  <div class="slideText">
+					 <div><p class="slideTitle">NFL Play 60</p></div><br>
+					 <div>
+						 <p class="slideDescription">A collaborative project with the NFL and the American Heart Association. This endless runner is meant to encourage and educate kids about health and fitness.</p><br>
+						 <p class="slideDescription">My role was to be in charge of the UI/UX of the app from initial wireframe concepts to the final page layouts. For the final product, I created custom graphics and laid out the scenes of the game so that the designs would elegantly coincide with the NFL's team branding.</p><br>
+						 <p class="slideDescription">Alongside the UI design, I was also placed in charge of creating the promotional graphics.</p><br>
+					 </div>
+				  </div>
+				  <img src="img/UIDesign/NFL/Image01.png" class="slideImage" alt="NFL Play 60 App">
+				  <img src="img/UIDesign/NFL/Image02.png" class="slideImage" alt="Wireframes">
+			      <img src="img/UIDesign/NFL/Image03.png" class="slideImage" alt="UI Assets">
+		    	  <img src="img/UIDesign/NFL/Image04.png" class="slideImage" alt="UI Screens for character collect, opponent screen, and activity chart">
+				  <img src="img/UIDesign/NFL/Image05.png" class="slideImage" alt="UI Screens for team select - showing the different themes for each team">
+				  <img src="img/UIDesign/NFL/Image06.png" class="slideImage" alt="UI Screens for team roster, exploring menu, and prize wheel">	
+				</div>
+				<!--SLIDE 2-->
+				<div class="uiSlides">
+				  <div class="slideText">
+					 <div><p class="slideTitle">Toy Escape</p></div><br>
+					 <div>
+						 <p class="slideDescription">An endless arcade game created and published by Dreamkind.</p><br>
+						 <p class="slideDescription">I was the lead designer for this role, and was in charge of all of the visuals. This included the UI, and also the backgrounds, characters, and overall thematic experience of the game.</p><br>
+						 <p class="slideDescription">Including the visual designs, I also lead the motion graphics and promotional work for Toy Escape.</p><br>
+					 </div>
+				  </div>
+				  <img src="img/UIDesign/ToyEscape/Image01.png" class="slideImage" alt="Toy Escape App">
+				  <img src="img/UIDesign/ToyEscape/Image02.png" class="slideImage" alt="Main Menu Screens showing you can play both vertically and horizontally">
+			      <img src="img/UIDesign/ToyEscape/Image03.png" class="slideImage" alt="UI Assets">
+		    	  <img src="img/UIDesign/ToyEscape/Image04.png" class="slideImage" alt="Background and in game assets">
+				  <img src="img/UIDesign/ToyEscape/Image05.png" class="slideImage" alt="UI Screens for unlocking a character and a gift">
+				  <img src="img/UIDesign/ToyEscape/Image06.png" class="slideImage" alt="UI Screens for end game menu, settings, and character unlock page">	
+				</div>
+				<!--SLIDE 3-->
+				<div class="uiSlides">
+				  <div class="slideText">
+					 <div><p class="slideTitle">Dreamkind</p></div><br>
+					 <div>
+					 	<p class="slideDescription">Dreamkind gave me the opportunity to take a part of their rebranding. I was able to redesign a new logo for them, and with that also take charge in redesigning their website. The company wanted to take a more refined and professional approach, so I took a minimal approach. Custom UI assets were created, but sparcely used, instead large and imapacting imagery were placed to convey and illustrate the messages of Dreamkind's projects.</p><br>
+					 </div>
+				  </div>
+				  <img src="img/UIDesign/Dreamkind/Image01.png" class="slideImage" alt="Dreamkind">	
+				  <img src="img/UIDesign/Dreamkind/Image02.png" class="slideImage" alt="Mood Board">
+			      <img src="img/UIDesign/Dreamkind/Image03.png" class="slideImage" alt="Logo concepts">
+		    	  <img src="img/UIDesign/Dreamkind/Image04.png" class="slideImage" alt="UI Assets">
+				  <img src="img/UIDesign/Dreamkind/Image05.png" class="slideImage" alt="Mobile and Desktop view of website">
+				  <img src="img/UIDesign/Dreamkind/Image06.png" class="slideImage" alt="Several screens showcasing different parts of the website">
+				</div>
+				<!--SLIDE 4-->
+				<div class="uiSlides">
+				  <div class="slideText">
+					 <div><p class="slideTitle">Alphabet Stories</p></div><br>
+					 <div>
+					 	<p class="slideDescription">A preschool app that helps kids with reading comprehension and shows them an introduction to spelling.</p><br>
+					 	<p class="slideDescription">With this project, I was given the rewarding opportunity of taking lead and repairing it. I took the initiative by redesigning all of the assets. This started with the background assets, to develop a look-and-feel, and then moved towards the UI. An illustrated approach was taken with the UI as well to match the aesthetic and also to create an easier visual representation that toddlers would understand.</p><br>
+					 </div>
+				  </div>
+				  <img src="img/UIDesign/AbcStories/Image01.png" class="slideImage" alt="Alphabet Stories">	
+				  <img src="img/UIDesign/AbcStories/Image02.png" class="slideImage" alt="UI Assets">
+			      <img src="img/UIDesign/AbcStories/Image03.png" class="slideImage" alt="Textures and Background Assets">
+		    	  <img src="img/UIDesign/AbcStories/Image04.png" class="slideImage" alt="UI Screenshot of the Playground">
+				  <img src="img/UIDesign/AbcStories/Image05.png" class="slideImage" alt="UI Screens for rhyming and spelling">
+				  <img src="img/UIDesign/AbcStories/Image06.png" class="slideImage" alt="Several UI screens showcasing different parts of the app">
+				</div>
+				<!--SLIDE 5-->    
+				<div class="uiSlides">
+				  <div class="slideText">
+					 <div>
+						 <div><p class="slideTitle">Rewind</p></div><br>
+						 <p class="slideDescription">Rewind is an interactive story with puzzles and an overarching mystery to solve.</p><br>
+						 <p class="slideDescription">For this project, I was the head of all of the 2D visual designs. This mainly encompassed the UI, but also included the imagery that appears throughout the experience. I curated the look-and-feel for this project and assisted with the minigame designs so that they can visually match the rest of the story's aethetic.</p><br>
+					 </div>
+				  </div>
+				  <img src="img/UIDesign/Rewind/Image01.png" class="slideImage" alt="Rewind: One Last Chance">	
+				  <img src="img/UIDesign/Rewind/Image02.png" class="slideImage" alt="UI Assets">
+			      <img src="img/UIDesign/Rewind/Image03.png" class="slideImage" alt="Screenshot showing most of the UI in action">
+		    	  <img src="img/UIDesign/Rewind/Image04.png" class="slideImage" alt="Slides of the 2D visuals in this app">
+				  <img src="img/UIDesign/Rewind/Image05.png" class="slideImage" alt="UI Screens for collecting an item and playing a minigame">
+				  <img src="img/UIDesign/Rewind/Image06.png" class="slideImage" alt="Several UI screens showcasing different parts of the app">	
+				</div>				
+				<!--SLIDE 6-->    
+				<div class="uiSlides">
+				  <div class="slideText">
+					 <div><p class="slideTitle">Click Depot</p></div><br>
+					 <div>
+					 	<p class="slideDescription">Click Depot commissioned me to redesign their website. While following their brand guidelines, I creatively put together UI assets and Illustrations to transform their previous site to one that expresses their company's goals more vividly.</p><br>
+					 </div>
+				  </div>
+				  <img src="img/UIDesign/ClickDepot/Image01.png" class="slideImage" alt="Click Depot">	
+				  <img src="img/UIDesign/ClickDepot/Image02.png" class="slideImage" alt="UI Assets">
+			      <img src="img/UIDesign/ClickDepot/Image03.png" class="slideImage" alt="Old provided concept transformed into a new design">
+		    	  <img src="img/UIDesign/ClickDepot/Image04.png" class="slideImage" alt="Main page shown on an iPad and iPhone">
+				  <img src="img/UIDesign/ClickDepot/Image05.png" class="slideImage" alt="Several screens showcasing different parts of the website on desktop">
+				  <img src="img/UIDesign/ClickDepot/Image06.png" class="slideImage" alt="Several screens showcasing different parts of the website on mobile">
+				</div>  
+			</div>
+		</div><!--End UI Modal-->
+		<!-- The Modal/Lightbox - Graphic Design-->
+		<div id="graphicDesign" class="modal">
+			<!-- Next/previous controls -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			<!--Close Button-->
+			<span class="close cursor" onclick="closeModalCA()">&times;</span>
+			<div class="modal-content">
+				<!--SLIDE 1-->
+				<div class="caSlides">
+				  <div class="slideText">
+					 <div>CONCEPT ART 1</div>
+					 <div>skgnaelkn </div>
+				  </div>
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				</div>
+				<!--SLIDE 2-->
+				<div class="caSlides">
+				  <div class="slideText">
+					 <div>CONCEPT ART 2</div>
+					 <div>skgnaelkn </div>
+				  </div>
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				</div>
+				<!--SLIDE 3-->
+				<div class="caSlides">
+				  <div class="slideText">
+					 <div>CONCEPT ART 3</div>
+					 <div>skgnaelkn </div>
+				  </div>
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				</div>
+				<!--SLIDE 4-->
+				<div class="caSlides">
+				  <div class="slideText">
+					 <div>CONCEPT ART 4</div>
+					 <div>skgnaelkn </div>
+				  </div>
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				</div>
+				<!--SLIDE 5-->
+				<div class="caSlides">
+				  <div class="slideText">
+					 <div>CONCEPT ART 5</div>
+					 <div>skgnaelkn </div>
+				  </div>
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				</div>
+				<!--SLIDE 6-->
+				<div class="caSlides">
+				  <div class="slideText">
+					 <div>CONCEPT ART 6</div>
+					 <div>skgnaelkn </div>
+				  </div>
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				</div>
+		  </div>
+		</div><!--End Graphic Design Modal-->
+		<!-- The Modal/Lightbox - Illustration -->
+		<div id="graphicArt" class="modal"> 
+			<!-- Next/previous controls -->
+			<a class="prev" onclick="plusSlidesGA(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlidesGA(1)">&#10095;</a>
+			<!--Close Button-->
+			<span class="close cursor" onclick="closeModalGA()">&times;</span>
+			<div class="modal-content">
+				<!--SLIDE 1-->
+				<div class="gaSlides">
+				  <div class="slideText">
+					 <div>GRAPHIC ART 1</div>
+					 <div>skgnaelkn </div>
+				  </div>
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				</div>
+				<!--SLIDE 2-->
+				<div class="gaSlides">
+				  <div class="slideText">
+					 <div>GRAPHIC ART 2</div>
+					 <div>skgnaelkn </div>
+				  </div>
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				</div>
+				<!--SLIDE 3-->
+				<div class="gaSlides">
+				  <div class="slideText">
+					 <div>GRAPHIC ART 3</div>
+					 <div>skgnaelkn </div>
+				  </div>
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				</div>
+				<!--SLIDE 4-->
+				<div class="gaSlides">
+				  <div class="slideText">
+					 <div>GRAPHIC ART 4</div>
+					 <div>skgnaelkn </div>
+				  </div>
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				</div>
+				<!--SLIDE 5-->
+				<div class="gaSlides">
+				  <div class="slideText">
+					 <div>GRAPHIC ART 5</div>
+					 <div>skgnaelkn </div>
+				  </div>
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				</div>
+				<!--SLIDE 6-->
+				<div class="gaSlides">
+				  <div class="slideText">
+					 <div>GRAPHIC ART 6</div>
+					 <div>skgnaelkn </div>
+				  </div>
+				  <img src="img/splash-bg.jpg" class="slideImage" alt="FPO">
+				</div>
+		  </div>
+		</div><!--End Illustration Modal-->
+		</section><!--END MAIN BODY-->
+	<footer>
+		<p style="font-size: 1em; text-align: center;">&copy; 2020 - Anita Paredes</p>
+	</footer>
+	</div> <!-- END .wrapper -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
+
+<!-- FOR REFERENCE -->
+  <!-- Caption text
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div> -->
+
+    <!-- Thumbnail image controls -->
+    <!--<div class="column">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Trolltunga">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div> -->
